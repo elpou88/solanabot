@@ -1,0 +1,9 @@
+# Nixpacks configuration for Railway
+[phases.setup]
+cmds = ['npm ci']
+
+[phases.build]
+cmds = ['npm run build']
+
+[start]
+cmd = 'npm start'
